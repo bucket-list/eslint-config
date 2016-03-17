@@ -1,32 +1,32 @@
 {
-	"name": "eslint-config-trejgun",
-	"version": "0.0.2",
-	"license": "MIT",
+  "name": "eslint-config-trejgun",
+  "version": "0.0.3",
+  "license": "MIT",
   "author": {
     "name": "Trej Gun",
     "email": "trejgun@gmail.com",
     "url": "https://github.com/TrejGun"
   },
   "description": "Eslint shared config for es7 projects",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/TrejGun/eslint-config-trejgun.git"
-	},
-	"keywords": [
-		"eslint",
-		"config"
-	],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrejGun/eslint-config-trejgun.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
   "scripts": {
     "pull": "git checkout master && git pull origin master",
     "push": "git push origin master --tags && npm publish",
     "commit": "git commit -a -m ${1}",
     "release": "release () { npm run pull && if [ -z $1 ]; then npm version patch; else npm version $1; fi && npm run push; }; release"
   },
-	"dependencies": {
-		"babel-eslint": "^6.0.0-beta",
+  "dependencies": {
+    "babel-eslint": "^6.0.0-beta",
     "eslint": "^2.4.0",
-		"eslint-config-airbnb": "^6.1.0",
-		"eslint-plugin-react": "^4.2.3"
-	}
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.3"
+  }
 }
