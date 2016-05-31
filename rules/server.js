@@ -24,6 +24,12 @@ module.exports = {
 		"no-else-return": [
 			0
 		],
+		"newline-per-chained-call": [
+			0
+		],
+		"no-underscore-dangle": [
+			0
+		],
 		"max-len": [
 			0
 		],
