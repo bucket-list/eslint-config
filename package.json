@@ -10,7 +10,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TrejGun/eslint-config.git"
+    "url": "https://github.com/bucket-list/eslint-config.git"
   },
   "keywords": [
     "eslint",
