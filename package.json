@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-abl",
   "version": "0.0.6",
   "license": "MIT",
   "author": {
@@ -10,7 +10,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bucket-list/eslint-config.git"
+    "url": "https://github.com/bucket-list/eslint-config-abl.git"
   },
   "keywords": [
     "eslint",
