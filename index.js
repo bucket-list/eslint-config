@@ -1,8 +1,8 @@
 module.exports = {
 	"extends": [
-		"bucket-list/rules/server",
-		"bucket-list/rules/client-react",
-		"bucket-list/rules/test"
+		"abl/rules/server",
+		"abl/rules/client-react",
+		"abl/rules/test"
 	],
 	"env": {},
 	"ecmaFeatures": {},
