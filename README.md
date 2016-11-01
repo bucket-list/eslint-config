@@ -6,7 +6,7 @@
 
 required modules
 ```bash
-npm install babel-eslint eslint eslint-config-airbnb eslint-config-trejgun
+npm install babel-eslint eslint eslint-config-airbnb eslint-config
 ```
 
 optional modules
@@ -20,13 +20,13 @@ npm install eslint-plugin-react
 
 ```json
 {
-    "extends": ["airbnb", "trejgun"]
+    "extends": ["airbnb", "bucket-list"]
 }
 ```
 
 ```json
 {
-    "extends": ["airbnb/base", "trejgun/rules/back-end"]
+    "extends": ["airbnb/base", "bucket-list/rules/back-end"]
 }
 ```
 

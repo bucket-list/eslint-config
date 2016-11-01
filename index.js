@@ -1,8 +1,8 @@
 module.exports = {
 	"extends": [
-		"trejgun/rules/server",
-		"trejgun/rules/client-react",
-		"trejgun/rules/test"
+		"bucket-list/rules/server",
+		"bucket-list/rules/client-react",
+		"bucket-list/rules/test"
 	],
 	"env": {},
 	"ecmaFeatures": {},

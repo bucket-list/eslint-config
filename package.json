@@ -1,17 +1,16 @@
 {
-  "name": "eslint-config-trejgun",
+  "name": "eslint-config",
   "version": "0.0.4",
   "license": "MIT",
   "author": {
-    "name": "Trej Gun",
-    "email": "trejgun@gmail.com",
-    "url": "https://github.com/TrejGun"
+    "name": "ABL",
+    "url": "https://github.com/bucket-list"
   },
   "description": "Eslint shared config for es7 projects",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TrejGun/eslint-config-trejgun.git"
+    "url": "https://github.com/TrejGun/eslint-config.git"
   },
   "keywords": [
     "eslint",

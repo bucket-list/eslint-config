@@ -1,6 +1,6 @@
 module.exports = {
 	"extends": [
-		"trejgun/rules/client",
+		"bucket-list/rules/client",
 		"airbnb/rules/react"
 	],
 	"rules": {
